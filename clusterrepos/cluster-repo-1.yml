@@ -1,5 +1,7 @@
-Name:         test1
-Kind:         ClusterRepo
-Spec:
-  Git Branch:  dev-v2.8
-  Git Repo:    https://git.rancher.io/charts
+apiVersion: catalog.cattle.io/v1
+kind: ClusterRepo
+metadata:
+  name: test1
+spec:
+  gitBranch: main
+  gitRepo: https://git.rancher.io/partner-charts
