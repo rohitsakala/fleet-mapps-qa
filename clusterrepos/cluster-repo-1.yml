@@ -1,0 +1,5 @@
+Name:         test1
+Kind:         ClusterRepo
+Spec:
+  Git Branch:  dev-v2.8
+  Git Repo:    https://git.rancher.io/charts
